@@ -1,7 +1,7 @@
 <template>
 <div class="container">
     <div class="row row-cols-1 row-cols-md-4">
-        <div v-for="show in showList" :key="show.name" class="col mb-4">
+        <div v-for="show in showList.slice(0,4)" :key="show.name" class="col mb-4">
             <div class="card h-100">
                 <img :src="'https://image.tmdb.org/t/p/w300//' + show.poster_path" class="card-img-top">
                 <div class="card-body">
