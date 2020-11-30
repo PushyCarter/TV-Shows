@@ -37,5 +37,3 @@ export default {
     padding: 0;
   }
 </style>
-
-<!-- 01266932991fa0f84b8598495a718d52 -->
